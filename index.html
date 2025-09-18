@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="ja">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+    <title>渡部智裕の個人ページ</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <div class="loading">
+        <!--<div class="spinner"></div>-->
+        <div class="loading-text smooth">
+            Tomohiro Watanabe
+        </div>
+    </div>
+    <header>
+        <h1>渡部 智裕</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#works">Works</a>
+            <a href="#content2">Research</a>
+            <a href="#content1">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="top">
+        <div class="top-text">
+            <p>Tomohiro</p>
+            <p>&emsp;Watanabe</p>
+        </div>
+        <img src="img1.jpg" class="top-img">
+    </div>
+
+    <main>
+        <article>
+            <h1>News</h1>
+            <p>2025/09/<a href="index.html">Homeページ</a>を更新しました．</p>
+            <p>2024/08/24：<a href="index.html">Homeページ</a>作成しました．</p>
+            <!--024/08/23：<a href="about.html">Aboutページ</a>作成しました．</p>-->
+        </article>
+
+        <section id="content1">
+            <img src="profile.jpg" class="content1-img">
+            <div class="content1-text">
+                <h1>プロフィール | Profile</h1>
+                <h2>
+                    <ruby>
+                        渡部 智裕
+                        <rt>わたなべ ともひろ</rt>
+                    </ruby>
+                    | Tomohiro Watanabe
+                </h2>
+                <p>2002年生まれ, 愛媛県出身 .</p>
+                <p>現在, 愛媛大学でコンピュータサイエンスを専攻しています .</p>
+                <p>ソフトウェア工学の研究に取り組んでいます .</p><br>
+                <!--<p>詳しくはこちら&gt;&emsp;<a href="about.html">About</a></p>-->
+            </div>
+        </section>
+
+        <section id="content2">
+            <div class="content2-text">
+                <h1>専攻と研究 | Major & Research</h1>
+                <h2>コンピュータサイエンス | Computer Science</h2>
+                <p>コンピュータサイエンスとは，コンピュータの理論から</p>
+                <p>応用までを幅広く学ぶ学問です .</p>
+                <p>花形であるプログラミングをイメージする方も多いと思いますが，</p>
+                <p>ソフトウェアに関することだけでなく，</p>
+                <p>数学やハードウェアについても学びます .</p>
+                <p>計算機科学やコンピュータ科学とも呼ばれます .</p>
+                <h2>ソフトウェア工学 | Software Engineering</h2>
+                <p>ソフトウェア工学とは, 高品質なソフトウェアを</p>
+                <p>効率的に開発するための学問です .</p><br>
+                <!--<p>研究について&gt;&emsp;<a href="research.html">Research</a></p>-->
+            </div>
+            <img src="img2.jpg" class="content2-img">
+        </section>
+
+        <section id="works">
+            <h1>制作物 | Works</h1>
+            <div class="container">
+                <div class="item1">
+                    <a href="index.html">
+                        <img src="home.png" class="item1-img"><br>
+                    </a>
+                    Home
+                </div>
+                <div class="item2">Null</div>
+                <div class="item3">Null</div>
+                <div class="item4">Null</div>
+                <div class="item5">Null</div>
+                <div class="item6">Null</div>
+                <div class="item7">Null</div>
+                <div class="item8">Null</div>
+                <div class="item9">Null</div>
+            </div>
+            <!--<p>過去の制作物&gt;&emsp;<a href="works.html">Works</a></p>-->
+        </section>
+
+        <section id="contact">
+            <h1>連絡先 | Contact</h1>
+            <p>ご連絡は下記メールアドレスまでお願いします .</p>
+            <h3>j520500y@gmail.com</h3>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            &copy; Copyright 2024-2025 Tomohiro Watanabe (渡部 智裕)
+        </p>
+    </footer>
+    <!--<script src="index.js"></script>-->
+    <script>
+        const loading = document.querySelector(".loading");
+        const body = document.body;
+        const smoothText = document.querySelector(".smooth");
+
+        body.classList.add("loading-active");
+
+        window.addEventListener("load", () => {
+            smoothText.classList.add("is-animated");
+
+            setTimeout(() => {
+                loading.classList.add("loaded");
+
+                const style = window.getComputedStyle(loading);
+                const duration = parseFloat(style.transitionDuration) * 1000;
+                const delay = parseFloat(style.transitionDelay) * 1000;
+
+                setTimeout(() => {
+                    body.classList.remove("loading-active");
+                }, duration + delay);
+            }, 1500);
+        });
+    </script>
+</body>
+
+</html>
