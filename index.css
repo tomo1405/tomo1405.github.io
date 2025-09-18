@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+header {
+    background-color: black;
+    height: 80px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    position: relative;
+    align-items: center;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+.top {
+    background-color: white;
+    height: 575px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top-text {
+    color: white;
+    font-size: 56pt;
+    font-style: italic;
+    font-weight: 900;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: black;
+    text-shadow: 0px 20px 8px rgba(0, 0, 0, 0.5);
+    padding-left: 40px;
+    padding-top: 175px;
+}
+
+.top-img {
+    width: 400px;
+    box-shadow: 10px 10px 20px -10px;
+    margin: 5px;
+}
+
+main {
+    padding: 0 25vw;
+}
+
+article {
+    background-color: white;
+    margin: 30px 0;
+    padding: 10px 50px 30px;
+    border-radius: 15px;
+}
+
+article h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+article a {
+    text-decoration: none;
+    color: black;
+}
+
+article a:hover {
+    text-decoration: underline;
+}
+
+section h1 {
+    border-left: solid 10px cornflowerblue;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+section p {
+    margin-bottom: 10px;
+}
+
+#content1 {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content1-img {
+    height: 360px;
+    box-shadow: 10px 10px 20px -10px;
+    border-radius: 15px;
+}
+
+.content1-text {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#content1 a {
+    text-decoration: none;
+    color: black;
+}
+
+#content1 a:hover {
+    text-decoration: underline;
+}
+
+#content2 {
+    position: relative;
+}
+
+.content2-text {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    backdrop-filter: blur(5px);
+}
+
+.content2-img {
+    width: 100%;
+}
+
+#content2 a {
+    text-decoration: none;
+    color: white;
+}
+
+#content2 a:hover {
+    text-decoration: underline;
+}
+
+#works {
+    margin: 3vh 0;
+    background-color: white;
+    padding: 5vmin;
+    border-radius: 15px;
+}
+
+#works a {
+    text-decoration: none;
+    color: black;
+}
+
+#works a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1vmin 1vmin;
+    grid-auto-flow: column;
+    text-align: center;
+}
+
+.item1 {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.item1-img {
+    height: 15vh;
+    border-radius: 15px;
+}
+
+#contact {
+    background-color: white;
+    border-radius: 15px;
+    padding: 5vmin;
+    margin-bottom: 3vh;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+    height: 30px;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+
+.loading {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s linear;
+    z-index: 9999;
+}
+
+.loading.loaded {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.loading-text {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 10rem;
+    text-align: center;
+}
+
+.spinner {
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 10px solid white;
+    border-left-color: black;
+    animation: spinner-rotation 1s linear infinite;
+}
+
+@keyframes spinner-rotation {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+body.loading-active {
+    overflow: hidden;
+}
+
+.smooth {
+    clip-path: inset(0 100% 0 0);
+    display: inline-block;
+    font-size: 10rem;
+    font-weight: bold;
+    transition: 1.4s cubic-bezier(0.37, 0, 0.63, 1);
+    transition-property: clip-path;
+    line-height: 1;
+    height: 200px;
+    margin-top: 15px;
+}
+
+.smooth.is-animated {
+    clip-path: inset(0);
+}
+
+@media (max-width: 959) {
+
+}
