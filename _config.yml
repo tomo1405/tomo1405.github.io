@@ -16,7 +16,7 @@ timezone: Asia/Tokyo
 
 title: Tomohiro # the main title
 
-tagline: 日常と研究・技術について # it will display as the subtitle
+tagline: 日常篇 # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   日常生活で思ったことや感じたことを書いています．特に深い意味はありません
