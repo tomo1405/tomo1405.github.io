@@ -1,0 +1,19 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif !important;
+}
