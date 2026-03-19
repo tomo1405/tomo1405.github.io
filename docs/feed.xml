@@ -4,7 +4,7 @@
   <id>https://tomo1405.github.io/</id>
   <title>Tomohiro</title>
   <subtitle>日常生活で思ったことや感じたことを書いています．特に深い意味はありません</subtitle>
-  <updated>2026-03-08T21:50:23+09:00</updated>
+  <updated>2026-03-19T18:33:32+09:00</updated>
   <author>
     <name>Tomohiro Watanabe</name>
     <uri>https://tomo1405.github.io/</uri>
@@ -20,11 +20,63 @@
 
   
   <entry>
+    <title>技術ブログはじめました</title>
+    <link href="https://tomo1405.github.io/posts/skillog/" rel="alternate" type="text/html" title="技術ブログはじめました" />
+    <published>2026-03-19T01:00:00+09:00</published>
+  
+    <updated>2026-03-19T01:00:00+09:00</updated>
+  
+    <id>https://tomo1405.github.io/posts/skillog/</id>
+    <content type="text/html" src="https://tomo1405.github.io/posts/skillog/" />
+    <author>
+      <name>Tomohiro Watanabe</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Diary" />
+    
+  
+
+  <summary>以前から技術ブログを書いてみたかったのですが， ここで書くと日常ブログの雰囲気が崩れる気がしたので， 新しいサイトを作ることにしました．  技術や研究に関しては， こちらで 発信しています．  これからもたくさん勉強し，アウトプット頑張ろう!!</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>クレカ</title>
+    <link href="https://tomo1405.github.io/posts/diary/" rel="alternate" type="text/html" title="クレカ" />
+    <published>2026-03-18T01:00:00+09:00</published>
+  
+    <updated>2026-03-18T01:00:00+09:00</updated>
+  
+    <id>https://tomo1405.github.io/posts/diary/</id>
+    <content type="text/html" src="https://tomo1405.github.io/posts/diary/" />
+    <author>
+      <name>Tomohiro Watanabe</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Diary" />
+    
+  
+
+  <summary>関西進出に際してメガバンクの口座を開設したのですが， その際にクレジットカードを同時に作成しなければならなく， 手持ちのクレカが3枚になってしまいました．  リスクが増えるだけなのでなるべく一枚にしたいのですが．．．  普段は現金はですが，一人暮らしを始めるのでクレカをメインにしてみようかなぁ．</summary>
+
+  </entry>
+
+  
+  <entry>
     <title>Welcome to My Blog</title>
     <link href="https://tomo1405.github.io/posts/welcome/" rel="alternate" type="text/html" title="Welcome to My Blog" />
     <published>2026-03-07T01:00:00+09:00</published>
   
-    <updated>2026-03-07T01:00:00+09:00</updated>
+    <updated>2026-03-18T23:23:05+09:00</updated>
   
     <id>https://tomo1405.github.io/posts/welcome/</id>
     <content type="text/html" src="https://tomo1405.github.io/posts/welcome/" />
@@ -40,7 +92,7 @@
     
   
 
-  <summary>TL;DR   ブログを始めてみました．（ついでに個人ホームページも作成しました） この記事では使用した技術を紹介しています．  はじめに   当サイトをご覧いただきありがとうございます． 学部の頃の指導教員に勧めていただこともあり，以前からいつかやってみようと思っていたので，学部卒業に際しブログを始めてみました．  僕が所属していた研究室は比較的忙しくなく（粗銅教員の先生はいつも忙しそうでした…）学部4年生の頃から始めてもよかったのですが，研究に加え外部院進するための勉強で，僕個人としてはとても忙しい1年間でした．  しかし，学部から大学院へ準備するこの時期は打って変わってするべきことがあまりなく（引っ越しの用意は大方2月中に終わりました）ブログを始めるのにちょうどよい機会でした．  ブログではなくTwitterでいいのではないかという声もあると思いますが，エンジニアの端くれとして...</summary>
+  <summary>TL;DR   ブログを始めてみました．（ついでに個人ホームページも作成しました） この記事では使用した技術を紹介しています．  はじめに   当サイトをご覧いただきありがとうございます． 学部の頃の指導教員に勧めていただこともあり，以前からいつかやってみようと思っていたので，学部卒業に際しブログを始めてみました．  僕が所属していた研究室は比較的忙しくなく（指導教員の先生はいつも忙しそうでした…）学部4年生の頃から始めてもよかったのですが，研究に加え外部院進するための勉強で，僕個人としてはとても忙しい1年間でした．  しかし，学部から大学院へ準備するこの時期は打って変わってするべきことがあまりなく（引っ越しの用意は大方2月中に終わりました）ブログを始めるのにちょうどよい機会でした．  ブログではなくTwitterでいいのではないかという声もあると思いますが，エンジニアの端くれとして...</summary>
 
   </entry>
 
