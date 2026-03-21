@@ -4,7 +4,7 @@
   <id>https://tomo1405.github.io/</id>
   <title>Tomohiro</title>
   <subtitle>日常生活で思ったことや感じたことを書いています．特に深い意味はありません</subtitle>
-  <updated>2026-03-19T21:30:12+09:00</updated>
+  <updated>2026-03-21T19:00:55+09:00</updated>
   <author>
     <name>Tomohiro Watanabe</name>
     <uri>https://tomo1405.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>3連休</title>
+    <link href="https://tomo1405.github.io/posts/260320/" rel="alternate" type="text/html" title="3連休" />
+    <published>2026-03-20T01:00:00+09:00</published>
+  
+    <updated>2026-03-20T01:00:00+09:00</updated>
+  
+    <id>https://tomo1405.github.io/posts/260320/</id>
+    <content type="text/html" src="https://tomo1405.github.io/posts/260320/" />
+    <author>
+      <name>Tomohiro Watanabe</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Diary" />
+    
+  
+
+  <summary>世間では，今週3連休らしく， 今日は3連休初日という事もあり，バイトがとても忙しかったです． 今月で退職するというのに，最後の最後に大変な思いをしましたX(  明日はABCに参加するぐらいしか予定がないため，ゆっくり休もうと思います．  来年度からは博士前期課程なので，もっと身になるような情報系のバイトやインターンで収入を得ようかなぁ．</summary>
+
+  </entry>
 
   
   <entry>
@@ -76,7 +102,7 @@
     <link href="https://tomo1405.github.io/posts/welcome/" rel="alternate" type="text/html" title="Welcome to My Blog" />
     <published>2026-03-07T01:00:00+09:00</published>
   
-    <updated>2026-03-18T23:23:05+09:00</updated>
+    <updated>2026-03-21T18:58:20+09:00</updated>
   
     <id>https://tomo1405.github.io/posts/welcome/</id>
     <content type="text/html" src="https://tomo1405.github.io/posts/welcome/" />
