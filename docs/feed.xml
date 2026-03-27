@@ -4,7 +4,7 @@
   <id>https://tomo1405.github.io/</id>
   <title>Tomohiro</title>
   <subtitle>日常生活で思ったことや感じたことを書いています．特に深い意味はありません</subtitle>
-  <updated>2026-03-21T19:00:55+09:00</updated>
+  <updated>2026-03-27T11:46:54+09:00</updated>
   <author>
     <name>Tomohiro Watanabe</name>
     <uri>https://tomo1405.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>学士号を取得しました</title>
+    <link href="https://tomo1405.github.io/posts/graduation/" rel="alternate" type="text/html" title="学士号を取得しました" />
+    <published>2026-03-24T01:00:00+09:00</published>
+  
+    <updated>2026-03-24T01:00:00+09:00</updated>
+  
+    <id>https://tomo1405.github.io/posts/graduation/</id>
+    <content type="text/html" src="https://tomo1405.github.io/posts/graduation/" />
+    <author>
+      <name>Tomohiro Watanabe</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Diary" />
+    
+  
+
+  <summary>本日は，愛媛大学の学位記授与式が行われ，私は学士号を取得いたしました． 最後まで，万が一単位が足りていなかったらどうしようと不安でしたが， 無事に卒業出来て良かったです:)  来週からは，新しい環境でまた研究がいっぱいできるのでとても楽しみです． 就活に研究，授業と多忙が予想されますが，そんな状況も楽しみつつ頑張りたいと思います．</summary>
+
+  </entry>
 
   
   <entry>
