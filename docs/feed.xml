@@ -4,7 +4,7 @@
   <id>https://tomo1405.github.io/</id>
   <title>Tomohiro</title>
   <subtitle>日常生活で思ったことや感じたことを書いています．特に深い意味はありません</subtitle>
-  <updated>2026-03-28T23:57:29+09:00</updated>
+  <updated>2026-04-06T20:56:48+09:00</updated>
   <author>
     <name>Tomohiro Watanabe</name>
     <uri>https://tomo1405.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>引っ越し &amp; 入院</title>
+    <link href="https://tomo1405.github.io/posts/move2nara/" rel="alternate" type="text/html" title="引っ越し &amp;amp; 入院" />
+    <published>2026-04-04T01:00:00+09:00</published>
+  
+    <updated>2026-04-04T01:00:00+09:00</updated>
+  
+    <id>https://tomo1405.github.io/posts/move2nara/</id>
+    <content type="text/html" src="https://tomo1405.github.io/posts/move2nara/" />
+    <author>
+      <name>Tomohiro Watanabe</name>
+    </author>
+
+  
+    
+    <category term="Blog" />
+    
+    <category term="Diary" />
+    
+  
+
+  <summary>4月1日から奈良県にて初めての1人暮らしです． なにせ初めてなんで，引っ越しに関係する手続きや買い物，奨学金関係の事務作業をしていると， あっという間に3日間も経過しました．  本日，ルータが家に届き，寮でもネットにつながるようになりました:)  まだ入学式も終わっていないですが，毎日オリエンテーションやガイダンスで朝から夕方まで， 人の話を聞いておりとても疲れました．（1日で処理する情報が多すぎる） 不安なことも多いですが，実りある2年間に出来るように頑張っていきます!!</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>以前から技術ブログを書いてみたかったのですが， ここで書くと日常ブログの雰囲気が崩れる気がしたので， 新しいサイトを作ることにしました．  技術や研究に関しては， こちらで 発信しています．  これからもたくさん勉強し，アウトプット頑張ろう!!</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>クレカ</title>
-    <link href="https://tomo1405.github.io/posts/diary/" rel="alternate" type="text/html" title="クレカ" />
-    <published>2026-03-18T01:00:00+09:00</published>
-  
-    <updated>2026-03-18T01:00:00+09:00</updated>
-  
-    <id>https://tomo1405.github.io/posts/diary/</id>
-    <content type="text/html" src="https://tomo1405.github.io/posts/diary/" />
-    <author>
-      <name>Tomohiro Watanabe</name>
-    </author>
-
-  
-    
-    <category term="Blog" />
-    
-    <category term="Diary" />
-    
-  
-
-  <summary>関西進出に際してメガバンクの口座を開設したのですが， その際にクレジットカードを同時に作成しなければならなく， 手持ちのクレカが3枚になってしまいました．  リスクが増えるだけなのでなるべく一枚にしたいのですが．．．  普段は現金はですが，一人暮らしを始めるのでクレカをメインにしてみようかなぁ．</summary>
 
   </entry>
 
